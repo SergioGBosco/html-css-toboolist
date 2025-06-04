@@ -18,6 +18,15 @@ body {
   background-color: #fff;
 }
 
+.container.top {
+  border-radius: 10px 10px 0px 0px;
+  margin-bottom: 2px;
+}
+
+.container.bot {
+  border-radius: 0px 0px 10px 10px;
+}
+
 /* Header */
 
 div.banner {
@@ -39,14 +48,10 @@ img {
 /* MAIN */
 
 body {
-  /* background-color: #f6f8fa; */
-  background-color: black;
+  background-color: #f6f8fa;
 }
 
-.container.top {
-  border-radius: 10px 10px 0px 0px;
-  margin-bottom: 2px;
-}
+
 
 a {
   height: 35px;
@@ -54,18 +59,89 @@ a {
   padding: 10px;
   display: inline-block;
   text-decoration: none;
-  text-align: center;
   border-radius: 10px;
-  /* color: #fff; */
+  color: #fff;
 }
 
 .task {
   background-color: #44afed;
-  color: #fff;
 }
 
 .section {
   background-color: transparent;
   border: 1px grey solid;
   color: grey;
+}
+
+/* Liste */
+section {
+  padding-top: 10px;
+}
+
+li {
+  padding: 10px 0px 10px 0px;
+  list-style: none;
+}
+
+span {
+  font-size: 12px;
+  vertical-align: middle;
+  text-align: center;
+  height: 25px;
+  padding: 5px 10px;
+  display: inline-block;
+  border-radius: 20px;
+  color: #fff;
+}
+
+
+
+section>ul {
+  list-style: none;
+}
+
+.editional {
+  background-color: #44afed;
+}
+
+.goals {
+  background-color: #9874e2;
+}
+
+.recruiting {
+  background-color: #63bfa7;
+}
+
+.mobile {
+  background-color: #eda32a;
+}
+
+.website {
+  background-color: #d6639d;
+  S
+}
+
+.sales {
+  background-color: #aac520;
+}
+
+.circle {
+  margin-right: 10px;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: transparent;
+  text-align: center;
+  line-height: 20px;
+}
+
+.circle.check {
+  color: green;
+  border: 1px green solid;
+}
+
+.circle.fals {
+  color: red;
+  border: 1px red solid;
 }
