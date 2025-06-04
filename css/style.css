@@ -12,7 +12,6 @@ body {
 /* Utility */
 .container {
   max-width: 1200px;
-  /* height: 100px; */
   margin: 0 auto;
   padding-left: 50px;
   background-color: #fff;
@@ -25,6 +24,7 @@ body {
 
 .container.bot {
   border-radius: 0px 0px 10px 10px;
+  padding-bottom: 50px;
 }
 
 /* Header */
@@ -34,7 +34,7 @@ div.banner {
   padding-top: 8px;
   padding-left: 20px;
   background-color: #fff;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 h1 {
@@ -56,11 +56,12 @@ body {
 a {
   height: 35px;
   margin: 10px 0px;
-  padding: 10px;
+  padding: 0px 20px;
   display: inline-block;
   text-decoration: none;
   border-radius: 10px;
   color: #fff;
+  line-height: 35px;
 }
 
 .task {
@@ -94,12 +95,6 @@ span {
   color: #fff;
 }
 
-
-
-section>ul {
-  list-style: none;
-}
-
 .editional {
   background-color: #44afed;
 }
@@ -118,7 +113,6 @@ section>ul {
 
 .website {
   background-color: #d6639d;
-  S
 }
 
 .sales {
