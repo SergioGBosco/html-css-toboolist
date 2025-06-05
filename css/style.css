@@ -7,6 +7,7 @@
 
 body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #f6f8fa;
 }
 
 /* Utility */
@@ -39,6 +40,9 @@ div.banner {
 
 h1 {
   display: inline-block;
+  font-weight: bold;
+  vertical-align: middle;
+  font-size: 40px;
 }
 
 img {
@@ -46,12 +50,6 @@ img {
 }
 
 /* MAIN */
-
-body {
-  background-color: #f6f8fa;
-}
-
-
 
 a {
   height: 35px;
